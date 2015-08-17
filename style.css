@@ -1,0 +1,48 @@
+form#form-addUser {
+	margin: 20px 0 0 0;
+}
+	form#form-addUser div{
+		margin:20px;
+	}
+	label {
+		display: block;
+		margin: 0 0 1px 0;
+		color: #000;
+	}
+	input {
+		display: inline-block;
+		margin: 0 0 10px 0;
+		width: 250px;
+		height: 30px;
+		font-size: 0.75em;
+		padding: 3px 0 0 10px;
+	}
+	form#form-addUser div.button button {
+		padding:13px 53px;
+		font-size: 0.75em;
+		border-radius: 4px;
+		border: 1px solid #A98A26;
+		background-color: #fabb00;
+		color: white;
+	}
+	form#form-addUser div.button button:hover {
+		background-color: #FADF17;
+	}
+	.bad {
+		background-color:red;
+	}
+	.bad label {
+		color: #fff;
+	}
+	.bad input {
+		border: 1px solid red;
+	}
+	.good {
+		background-color:green;
+	}
+	.good label {
+		color: #fff;
+	}
+	.good input {
+		border: 1px solid green;
+	}
